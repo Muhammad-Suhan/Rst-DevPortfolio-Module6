@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Azeret Mono", monospace; */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Azeret Mono", monospace;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px 150px;
+}
+
+.home-title {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav-btn {
+    display: inline-flex;
+    padding: 17px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    background: url('./assets/Hero-bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.banner>h1 {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px;
+    /* 141.667% */
+    width: 70%;
+}
+
+.banner>p {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 70%;
+}
+
+.banner>button {
+    padding: 21px 24px;
+    border-radius: 8px;
+    background: #0D1321;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff9f9;
+}
+
+.why {
+    padding-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.why>h1 {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.why>p {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.wc-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+
+.why-card {
+    padding: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    background-color: aliceblue;
+    margin-top: 24px;
+}
+
+.wc-contant {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.wc-contant>h1 {
+    color: rgba(13, 19, 33, 0.70);
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 150% */
+}
+
+.wc-contant>p {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.wc-contant>button {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.video {
+    text-align: center;
+}
+
+.video>iframe {
+    border: 1px solid gray;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.tg-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.tg-card {
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.tg-card1 {
+    background-color: rgb(250, 242, 226);
+}
+
+.tg-card2 {
+    background-color: rgb(211, 219, 255);
+}
+
+.tg-card3 {
+    background-color: rgb(250, 250, 206);
+}
+
+.tg-card>img {
+    margin-bottom: 24px;
+}
+
+.tg-card>h1 {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+    /* 150% */
+}
+
+.tg-card>p {
+    width: 300px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.tg-card>a {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.input-box>input {
+    width: 548px;
+    padding: 19px 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+}
+
+.input-box>button {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 120px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+#support{
+    background: url('./assets/handshake.jpg');
+    padding: 32px;
+    margin-bottom: 80px;
+    border-radius: 16px;
+}
+#support > h1{
+    color: white;
+}
+
+#support > p{
+    color: white;
+    opacity: 0.6;
+}
